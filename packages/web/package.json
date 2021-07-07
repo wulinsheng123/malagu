@@ -1,14 +1,14 @@
 {
   "name": "@malagu/web",
-  "version": "1.24.0",
+  "version": "1.26.0",
   "description": "",
   "main": "lib/common/index.js",
   "typings": "lib/common/index.d.ts",
   "dependencies": {
-    "@malagu/core": "^1.24.0",
+    "@malagu/core": "1.26.0",
     "@types/express": "^4.17.9",
-    "alscontext": "^0.0.3",
     "axios": "^0.21.1",
+    "cls-hooked": "^4.2.2",
     "cookies": "^0.8.0",
     "cors": "^2.8.5",
     "crc": "^3.8.0",
@@ -18,7 +18,7 @@
     "uuid": "^3.4.0"
   },
   "peerDependencies": {
-    "@malagu/cli-service": "^1.21.0"
+    "@malagu/cli-service": "^1.26.0"
   },
   "publishConfig": {
     "access": "public"
@@ -48,7 +48,7 @@
     "test": "malaguext test"
   },
   "devDependencies": {
-    "@malagu/ext-scripts": "^1.24.0",
+    "@malagu/ext-scripts": "1.26.0",
     "@types/cors": "^2.8.6",
     "bufferutil": "^4.0.1",
     "utf-8-validate": "^5.0.2"
